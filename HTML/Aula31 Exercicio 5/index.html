@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Inscreva-se agora</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1 id="h1">Formulario de Inscrição</h1>
+
+        <form > 
+
+           <div style="text-align: center;"> <!-- div para deixar tudo separadinho mais organizado -->
+                <label for="nome">Nome: </label><br>
+                <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo...">
+                
+            </div>
+
+            <br><br>
+
+            <div><!-- div para deixar tudo separadinho mais organizado -->
+                <label for="email">Email: </label><br>
+                <input type="email" id="email" name="email" required placeholder="Digite seu Email">
+            </div>
+
+            <br><br>
+
+            <div><!-- div para deixar tudo separadinho mais organizado -->
+                <label for="wpp">WhatsApp:</label><br>
+                <input type="tel" id="wpp" name="wpp" required placeholder="Digite seu numero do WhatsApp">
+            </div>
+            
+            <div ><!-- div para deixar tudo separadinho mais organizado -->
+                <!-- Campo de seleção usando inputs de radio -->
+                <h3>Area de Atuação:</h3>
+                <input type="radio" id="desenvolvimento" name="area" value="dese" required>
+                <label for="desenvolvimento">Desenvolvimento</label> |
+
+                <input type="radio" id="QA" name="area" value="qualitya" required>
+                <label for="QA" id="QA">Quality Assurance(QA)</label> |
+
+                <input type="radio" name="area" id="analise" value="analise" required>
+                <label for="analise">Analise de Dados</label> |
+
+                <input type="radio" name="area" id="infraestrutura" value="infra" required>
+                <label for="infraestrutura">Infraestrutura</label>
+            </div>
+
+            <div><!-- div para deixar tudo separadinho mais organizado -->
+                <h3>Observações</h3>
+                <textarea name="obs" id="obs" cols="30" rows="6" placeholder="Digite aqui aonde você mais se destaca."></textarea>
+            </div>
+
+            <br><br>
+
+            <div>
+                <input type="checkbox" name="conf" id="conf">
+                <label for="conf">Desejo receber novidades e ofertas por email</label>
+                <br>
+                <input type="submit" name="enviar" id="enviar">
+            </div>
+
+        </form>
+    </body>
+</html>
