@@ -1,0 +1,54 @@
+body {
+    background-image: url("https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg");
+    /* no backg-image serve para colocar uma imagem como fundo de site mas tem que usar o URL caso queira colocar junto um link */
+    background-size: cover;
+    /* a função cover é para cobrir toda a tela do usuario sem colocar um tamanho espeficico como 10%  ou 400px */
+}
+
+header {
+    background-color: #333;
+    /* o Backg-color serve para mudar o fundo da função */
+    color: #fff;
+}
+
+main {
+    background-color: #e5e5e5;
+    border-width: 4px; 
+    /* border-width serve para colocar a largura da borda */
+    border-color: #1c1a1d; 
+    /* cor da borda */
+    border-style: solid;
+    /* estilo de como a linha vai ser (é o mais importante pq se nao colocar ele nao vai aparecer borda nenhuma) */
+}
+
+.box1 {
+    background-color: #169436;
+    border: dashed 2px #1c1a1d;
+    /* para definir os 3 de uma vez (altura, largura e tipo da borda e tbm cor dela) */
+    height: 64px;
+    /* altura da borda (mas serve para outras coisas fora da borda tbm)*/
+    width: 320px;
+    /* largura da borda (mas serve para outras coisas fora da borda tbm)*/
+}
+
+.box2 {
+    background-image: linear-gradient(45deg, #2c2c2d, #f64348);
+    /*gradient é uma cor que gradiando de uma pra outra, tipo um degrade */
+    border-top: 4px dotted #1c1a1d;
+    /* define que a borda vai ficar só na parte de cima */
+    height: 64px;
+    width: 320px;
+}
+
+.box3 {
+    background-color: #0077ff;
+    border: 2px solid #1c1a1d;
+    border-top-right-radius: 40px;
+    /* border-radius é pra deixar a borda arrendondada mas
+      mas da pra mudar a dizeção e o angulo da borda tambem*/
+    border-bottom-left-radius: 40px;
+    /* border-radius é pra deixar a borda arrendondada */
+    height: 64px;
+    width: 320px;
+}
+/*  */
