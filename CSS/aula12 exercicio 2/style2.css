@@ -1,9 +1,5 @@
-h1{
-    text-align: center;
-}
 li{
     cursor: pointer;
-    text-align: center;
     background-color: black;
     /* cor do fundo do elemento */
     color: aliceblue;
@@ -25,4 +21,10 @@ li{
 .selected{
     border: solid 4px blue;
     /* borda do elemento que tem que ser destacado */
+}
+
+.hidden{
+    display: none;
+    /*display : none , faz com que o conteudo que esteja dentro da 
+    class/id/name qual quer coisa, suma(mas ainda continua no codigo)*/
 }
