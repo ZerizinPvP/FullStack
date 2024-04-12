@@ -1,0 +1,22 @@
+body{
+    background-image: url(https://c.wallhere.com/photos/6d/a7/Darth_Vader_Star_Wars_simple_background_Luke_Skywalker-85989.png!d);
+    background-size: cover ;
+} 
+header{
+    background-color: black;
+    background-size: cover;
+    margin: 6px;
+    padding-bottom: 15px;
+    color: yellow;
+}
+#p{
+    text-align: center;
+}
+img{
+    height: 259px;
+} 
+
+ul{
+    float: left;
+    font-size: larger;
+}
